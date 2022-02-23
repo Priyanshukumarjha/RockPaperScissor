@@ -1,0 +1,21 @@
+{
+  "name": "rockpaperscissor",
+  "version": "1.0.0",
+  "description": "Rock Paper Scissor Web Game Projects For Portfolio and Practice",
+  "main": "Script.js",
+  "scripts": {
+    "test": "console.log(\"Hello\")"
+  },
+  "repository": {
+    "type": "git",
+    "url": "RockPaperScissor"
+  },
+  "keywords": [
+    "#WebApps",
+    "#Rock",
+    "#Paper",
+    "#Scissor"
+  ],
+  "author": "Priyanshu Kumar Jha",
+  "license": "ISC"
+}
