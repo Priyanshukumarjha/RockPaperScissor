@@ -64,7 +64,7 @@ function game(userChoice) {
             lose(userChoice,computerChoice,resultStatment);
         }
     }
-    else if (computerChoice == "Scisssor") {
+    else if (computerChoice == "Scissor") {
         if (userChoice == "Rock") {
             resultStatment = rockVsScissor;
             win(userChoice,computerChoice,resultStatment);
