@@ -53,6 +53,7 @@ h1 {
 }
 .Results {
   padding-top: 20px;
+  padding-bottom: 24px;
   font-size: 36px;
   color: black;
   font-family:  sans-serif;
@@ -75,4 +76,13 @@ h1 {
 #CommandMessage {
   font-family:  sans-serif;
   font-size: 30px;
+}
+.greenGlow {
+  border-color: rgb(17, 228, 17);
+}
+.redGlow {
+  border-color: #E2584D;
+}
+.blueGlow {
+  border-color: aquamarine;
 }

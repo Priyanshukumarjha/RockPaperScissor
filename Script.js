@@ -23,6 +23,10 @@ function win(userChoice,computerChoice,resultStatment) {
     userScoreSpan.innerHTML = userScore;
     compScoreSpan.innerHTML = compScore;
     resultDiv.innerHTML = "You Choose: "+userChoice+" & "+"Computer Choose: "+computerChoice+". "+resultStatment+", You Win!";
+    document.getElementById(userChoice).classList.add("greenGlow");
+    setTimeout(function() {
+        document.getElementById(userChoice).classList.remove("greenGlow");
+    },1000);
 }
 
 function lose(userChoice,computerChoice,resultStatment) {
@@ -30,6 +34,10 @@ function lose(userChoice,computerChoice,resultStatment) {
     userScoreSpan.innerHTML = userScore;
     compScoreSpan.innerHTML = compScore;
     resultDiv.innerHTML = "You Choose: "+userChoice+" & "+"Computer Choose: "+computerChoice+". "+resultStatment+", You Lose!";
+    document.getElementById(userChoice).classList.add("redGlow");
+    setTimeout(function() {
+        document.getElementById(userChoice).classList.remove("redGlow");
+    },1000);
 }
 
 function draw(userChoice,computerChoice) {
@@ -37,6 +45,10 @@ function draw(userChoice,computerChoice) {
     userScoreSpan.innerHTML = userScore;
     compScoreSpan.innerHTML = compScore;
     resultDiv.innerHTML = "You Choose: "+userChoice+" & "+"Computer Choose: "+computerChoice+". "+resultStatment+", Its Draw!";
+    document.getElementById(userChoice).classList.add("blueGlow");
+    setTimeout(function() {
+        document.getElementById(userChoice).classList.remove("blueGlow");
+    },1000);
 }
 
 function game(userChoice) {
